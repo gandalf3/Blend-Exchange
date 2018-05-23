@@ -1,58 +1,15 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# IDE Garbage Files
+# Please feel free to add excludes for your IDE of choice
 
-# Folder config file
-Desktop.ini
+#Visual Studio Code
+.vs/
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+#Secret Configuration
+.env
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Composer Dependencies
+vendor/
 
-# Windows shortcuts
-*.lnk
+#Symfony stuff
+.cache/
 
-# Dolphin info files
-*.directory
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-#secret.json - with keys
-
-secret.json
-
-#node version
-Blend-exchangeNode/
-
-#Google_Drive_Api
-Google_Drive_Api/
-#secrets must be hidden
-secret/
