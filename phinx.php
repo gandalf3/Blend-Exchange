@@ -1,5 +1,5 @@
 <?php declare(strict_types = 1);
-$config = require 'src/Configuration/main.php';
+$config = require 'src/Configuration/Main.php';
 
 return  [
     'paths' => [
@@ -12,7 +12,7 @@ return  [
       'dev' => [
         'adapter' => $config['database']['driver'],
         'host' =>   $config['database']['host'],
-        'name' =>   'blend-exchange',
+        'name' =>   $config['database']['database'],
         'user' =>   $config['database']['username'],
         'pass' => $config['database']['password'],
         'port' => 3306
@@ -20,7 +20,7 @@ return  [
       'production' => [
         'adapter' => $config['database']['driver'],
         'host' =>   $config['database']['host'],
-        'name' =>   'blend-exchange',
+        'name' =>   $config['database']['database'],
         'user' =>   $config['database']['username'],
         'pass' => $config['database']['password'],
         'port' => 3306
